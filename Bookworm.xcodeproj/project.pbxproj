@@ -14,6 +14,10 @@
 		7DCE91BA256B3529007E5EA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DCE91B9256B3529007E5EA5 /* Assets.xcassets */; };
 		7DCE91BD256B3529007E5EA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DCE91BC256B3529007E5EA5 /* Preview Assets.xcassets */; };
 		7DCE91C0256B3529007E5EA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DCE91BE256B3529007E5EA5 /* LaunchScreen.storyboard */; };
+		7DCE91C9256B3549007E5EA5 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCE91C8256B3549007E5EA5 /* AddBookView.swift */; };
+		7DCE91D0256B3B55007E5EA5 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCE91CF256B3B55007E5EA5 /* RatingView.swift */; };
+		7DCE91D5256B40A0007E5EA5 /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCE91D4256B40A0007E5EA5 /* EmojiRatingView.swift */; };
+		7DCE91D9256B45A1007E5EA5 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCE91D8256B45A1007E5EA5 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		7DCE91BC256B3529007E5EA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7DCE91BF256B3529007E5EA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DCE91C1256B3529007E5EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DCE91C8256B3549007E5EA5 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		7DCE91CF256B3B55007E5EA5 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		7DCE91D4256B40A0007E5EA5 /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		7DCE91D8256B45A1007E5EA5 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,10 @@
 				7DCE91B0256B3526007E5EA5 /* AppDelegate.swift */,
 				7DCE91B2256B3526007E5EA5 /* SceneDelegate.swift */,
 				7DCE91B4256B3526007E5EA5 /* ContentView.swift */,
+				7DCE91C8256B3549007E5EA5 /* AddBookView.swift */,
+				7DCE91CF256B3B55007E5EA5 /* RatingView.swift */,
+				7DCE91D4256B40A0007E5EA5 /* EmojiRatingView.swift */,
+				7DCE91D8256B45A1007E5EA5 /* DetailView.swift */,
 				7DCE91B9256B3529007E5EA5 /* Assets.xcassets */,
 				7DCE91BE256B3529007E5EA5 /* LaunchScreen.storyboard */,
 				7DCE91C1256B3529007E5EA5 /* Info.plist */,
@@ -149,9 +161,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DCE91B1256B3526007E5EA5 /* AppDelegate.swift in Sources */,
+				7DCE91D9256B45A1007E5EA5 /* DetailView.swift in Sources */,
+				7DCE91D0256B3B55007E5EA5 /* RatingView.swift in Sources */,
+				7DCE91D5256B40A0007E5EA5 /* EmojiRatingView.swift in Sources */,
 				7DCE91B8256B3526007E5EA5 /* Bookworm.xcdatamodeld in Sources */,
 				7DCE91B3256B3526007E5EA5 /* SceneDelegate.swift in Sources */,
 				7DCE91B5256B3526007E5EA5 /* ContentView.swift in Sources */,
+				7DCE91C9256B3549007E5EA5 /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
